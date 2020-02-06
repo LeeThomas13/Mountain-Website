@@ -3,7 +3,7 @@ var today = new Date();
 var hourNow = today.getHours();
 var greeting;
 
-if (hourNow > 18) {
+if (hourNow > 15) {
     greeting = 'Its dinnertime Bro! Wanna crush some white claws?'
 }   else if (hourNow > 12) {
     greeting =  'You eat lunch yet? No? Dope lets hit that farmers market'
