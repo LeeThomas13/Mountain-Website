@@ -42,18 +42,25 @@ function dropdown() {
 
 }
 
-function boards() {
-    var quest = prompt('Before we get into that, how many pictures of snowboards you want bro??');
-    var bigboiboard = img
+function mountains() {
+
+    var quantity = prompt('Just one more step dawg, how many pictures of beautiful powdery mountains you want bro??');
+    var item;
+    var total = '';
+    
 
 
-    while (isNaN(quest)){
-        quest = prompt('a number please bro')
+    while (isNaN(quantity)){
+        quantity = prompt('a number please bro');
     }
     
-    for (var i = 0; i < quantity; i++)
+    for (var i = 0; i <= quantity; i++){
+        total = total + item;
+        item = '<img src="images/mountain.jpg" height="200px" width="200px">';
+        console.log(typeof(quantity))
+    }
+
+    return total;
 
 
 }
-
-// Ive been at this evil "for loop" for an hour and i need to sleep. I'll return to it soon. 
