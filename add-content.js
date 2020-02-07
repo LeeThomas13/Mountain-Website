@@ -43,12 +43,16 @@ function dropdown() {
 }
 
 function boards() {
-    var quest = prompt('how many boards you want bro??');
-    var bigboiboard;
+    var quest = prompt('Before we get into that, how many pictures of snowboards you want bro??');
+    var bigboiboard = img
 
-    for (var i = 0; i < 3; i++) {
-        document.write(i);
+
+    while (isNaN(quest)){
+        quest = prompt('a number please bro')
     }
+    
+    for (var i = 0; i < quantity; i++)
+
 
 }
 
