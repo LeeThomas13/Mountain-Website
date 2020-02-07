@@ -44,9 +44,9 @@ function dropdown() {
 
 function money() {
     var quest = prompt('how many boards you want bro??')
-    var money;
+    var bigboiboard;
 
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < 3; i++) {
         document.write(i);
     }
 
