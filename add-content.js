@@ -24,7 +24,7 @@ function dropdown() {
     // console.log(typeof(question))
 
     while (question !== '1' && question !== '2') {
-        question = prompt('you degenerate, try again');
+        question = prompt('you degenerate, try again. 1 or 2');
         // console.log(typeof(question))
 
     }
@@ -34,7 +34,7 @@ function dropdown() {
          greeting = 'You lose!';
     }else if (question === '2'){
         var whatever = confirm('dude you just won a snowboard!, sick! Email thisemailisfake@yahoo.com to claim it!');
-        greeting = 'congrats!! You won a free snowboard';
+        greeting = 'congrats!! You won a free snowboard!';
     }
         
     
@@ -42,8 +42,8 @@ function dropdown() {
 
 }
 
-function money() {
-    var quest = prompt('how many boards you want bro??')
+function boards() {
+    var quest = prompt('how many boards you want bro??');
     var bigboiboard;
 
     for (var i = 0; i < 3; i++) {
@@ -51,3 +51,5 @@ function money() {
     }
 
 }
+
+// Ive been at this evil "for loop" for an hour and i need to sleep. I'll return to it soon. 
